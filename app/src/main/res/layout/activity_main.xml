@@ -10,49 +10,15 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="text to convert" />
+        android:text="@string/text_to_convert" />
 
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="50dp"
-        android:orientation="horizontal"
-        android:weightSum="3">
-
-        <Button
-            android:id="@+id/speak"
-            android:layout_width="286dp"
-            android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:lines="2"
-            android:text="begin"
-            android:textSize="12dp" />
-
-        <Button
-            android:id="@+id/stop"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_weight="2"
-            android:lines="2"
-            android:text="stop"
-            android:textSize="12dp" />
-
-    </LinearLayout>
-
-    <ScrollView
+    <Button
+        android:id="@+id/speak"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_above="@+id/btn"
-        >
+        android:layout_height="wrap_content"
+        android:text="@string/button" />
 
-        <TextView
-            android:id="@+id/showText"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="10dp"
-            android:background="@android:color/darker_gray"
-            android:minLines="3"
-            android:scrollbars="vertical"
-            android:text="text to convert" />
-    </ScrollView>
 
 </LinearLayout>
+
+

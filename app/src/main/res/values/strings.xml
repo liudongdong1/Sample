@@ -2,4 +2,6 @@
     <string name="app_name">Sample</string>
     <string name="wifiOn">wifi on</string>
     <string name="wifiOff">wifi off</string>
+    <string name="button">Button</string>
+    <string name="text_to_convert">text to convert</string>
 </resources>
